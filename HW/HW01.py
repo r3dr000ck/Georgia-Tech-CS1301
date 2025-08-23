@@ -48,8 +48,6 @@ def diningDollars():
     total = (3.0 * drink + 6.0 * app + 11.0 * ma + 3.0 * des) * 1.2
     print(f"You have spent a total of {total} dining dollars and have {round(23.0 - total, 1)} dining dollars left!")
 
-diningDollars()
-
 #########################################
 
 """
