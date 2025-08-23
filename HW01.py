@@ -16,7 +16,7 @@ def weekOfWelcome():
     time = input("Enter the time of the event: ")
     location = input("Enter the location of the event: ")
     club = input("Enter the name of the club hosting the event: ")
-    print(f"{day}, {time}, {location}: WoW event by the {club}")
+    print(f"{day}, {time}, {location}: WoW event by the {club} Club.")
 
 #########################################
 
@@ -46,7 +46,7 @@ def diningDollars():
     ma = float(input("How many main courses are you having? "))
     des = float(input("How many desserts are you having? "))
     total = (3.0 * drink + 6.0 * app + 11.0 * ma + 3.0 * des) * 1.2
-    print(f"You have spent a total of {total} dining dollars and have {round(23.0 - total, 1)} dining dollars left!")
+    print(f"You have spent a total of {round(total, 1)} dining dollars and have {round(23.0 - total, 1)} dining dollars left!")
 
 #########################################
 
