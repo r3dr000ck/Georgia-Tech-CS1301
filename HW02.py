@@ -59,9 +59,7 @@ Returns: winner (str)
 
 def tiebreak(pl1, pl2, sc1, sc2):
     print(f'Score gap: {abs(sc1 - sc2)}')
-    if sc1 == 6 and sc2 == 6:
-        return "Tiebreak is intense!"
-    elif max(sc1, sc2) >= 7:
+    if max(sc1, sc2) >= 7:
         if abs(sc1 - sc2) >= 2:
             if sc1 > sc2:
                 return f"{pl1} wins the tiebreak!"
@@ -74,7 +72,10 @@ def tiebreak(pl1, pl2, sc1, sc2):
             else:
                 return f"{pl2} is one point from winning!"
         else:
-            return "Tiebreak in progress!"
+            if sc1 == sc2:
+                return "Tiebreak is intense!"
+            else:
+                return "Tiebreak in progress!"
     else:
         return "Tiebreak in progress!"
 
