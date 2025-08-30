@@ -134,7 +134,6 @@ def tennisPredictor(pl1, pl2, st1, st2, hth, mp1, mp2):
         if hth == "P2" and st2 >= 60:
             return f"{pl2} is predicted to win!"
     
-    if hth == "Tie":
-        return "Close match!"
+    return "Close match!"
     
 #########################################
