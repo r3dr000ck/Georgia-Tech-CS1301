@@ -72,7 +72,7 @@ def tiebreak(pl1, pl2, sc1, sc2):
             else:
                 return f"{pl2} is one point from winning!"
         else:
-            if sc1 == sc2:
+            if sc1 == sc2 and sc1 >= 6 and sc2 >= 6:
                 return "Tiebreak is intense!"
             else:
                 return "Tiebreak in progress!"
