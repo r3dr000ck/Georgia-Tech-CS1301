@@ -23,7 +23,7 @@ def buyTickets(num, section, days):
     elif days <= 7:
         sum += (num * 20.0)
     print(f"Base price: ${round(base, 2)}/ticket")
-    return f"The total for {num} is: ${round(sum, 2)}"
+    return f"The total for {num} people is: ${round(sum, 2)}"
 
 #########################################
 
@@ -58,7 +58,7 @@ Returns: winner (str)
 """
 
 def tiebreak(pl1, pl2, sc1, sc2):
-    print(f"'Score gap: {abs(sc1 - sc2)}'")
+    print(f'Score gap: {abs(sc1 - sc2)}')
     if sc1 == 6 and sc2 == 6:
         return "Tiebreak is intense!"
     elif max(sc1, sc2) >= 7:
@@ -98,7 +98,7 @@ def playerStats(player_name, ace, db, win, fe):
     elif serve >= 5 and ral >= 5:
         return f'{player_name} played a solid match. (Serve: {serve}, Rally: {ral}'
     elif serve < 5 and ral < 5:
-        return f'{player_name} struggled in this match. (Serve:{serve}, Rally: {ral})'
+        return f'{player_name} struggled in this match. (Serve: {serve}, Rally: {ral})'
     else:
         return f'{player_name} had a mixed performance. (Serve: {serve}, Rally: {ral})'
 
@@ -138,6 +138,4 @@ def tennisPredictor(pl1, pl2, st1, st2, hth, mp1, mp2):
     if hth == "Tie":
         return "Close match!"
     
-print(tennisPredictor("Iga Swiatek", "Aryna Sabalenka", 75, 55, "Tie", 4, 2))
-
 #########################################
