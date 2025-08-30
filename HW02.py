@@ -22,7 +22,7 @@ def buyTickets(num, section, days):
         sum += (num * 50.0)
     elif days <= 7:
         sum += (num * 20.0)
-    print(f"'Base price: ${round(base, 2)}/ticket'")
+    print(f"Base price: ${round(base, 2)}/ticket")
     return f"The total for {num} is: ${round(sum, 2)}"
 
 #########################################
@@ -36,18 +36,18 @@ Returns: status (str)
 def matchStatus(player, opp):
     if player >= 6:
         if player == 6 and opp == 6:
-            return '"Time for the tiebreak."'
+            return "Time for the tiebreak."
         if opp < player - 1:
-            return '"Player wins the set!"'
+            return "Player wins the set!"
         elif opp > player + 1:
-            return '"Player loses the set."'
+            return "Player loses the set."
         else:
-            return '"Set still in progress."'
+            return "Set still in progress."
     else:
         if opp >= 6 and opp > player + 1:
-            return '"Player loses the set."'
+            return "Player loses the set."
         else:
-            return '"Set still in progress."'
+            return "Set still in progress."
 
 #########################################
 
@@ -88,19 +88,19 @@ Returns: player_performance (str)
 
 def playerStats(player_name, ace, db, win, fe):
     if ace < 0 or db < 0 or win < 0 or fe < 0:
-        return f'"Invalid stats for {player_name}."'
+        return f'Invalid stats for {player_name}.'
     
     serve = ace - (2 * db)
     ral = win - fe
 
     if serve >= 10 and ral >= 15:
-        return f'"{player_name} dominated the match! (Serve: {serve}, Rally: {ral})"'
+        return f'{player_name} dominated the match! (Serve: {serve}, Rally: {ral})'
     elif serve >= 5 and ral >= 5:
         return f'{player_name} played a solid match. (Serve: {serve}, Rally: {ral}'
     elif serve < 5 and ral < 5:
-        return f'"{player_name} struggled in this match. (Serve:{serve}, Rally: {ral})"'
+        return f'{player_name} struggled in this match. (Serve:{serve}, Rally: {ral})'
     else:
-        return f'"{player_name} had a mixed performance. (Serve: {serve}, Rally: {ral})"'
+        return f'{player_name} had a mixed performance. (Serve: {serve}, Rally: {ral})'
 
 #########################################
 
