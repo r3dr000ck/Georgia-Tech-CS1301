@@ -175,6 +175,8 @@ for i in txt.split("\n"):
         flights.append(tmp)
         tmp = []
 
+flights.append(tmp)
+
 def taylorEmissions(r):
     for i in flights:
         if i[0] == r:
@@ -183,7 +185,7 @@ def taylorEmissions(r):
 def taylorFlights(c):
     ret = []
     for i in flights:
-        if i[4] > float(c):
+        if i[4] > c:
             ret.append(i[0])
     return sorted(ret)
 
@@ -191,8 +193,11 @@ def transportationModes(city):
     with open("transportationModes.txt", "w", encoding="utf-8") as f:
         f.write("Transportation Modes\n")
         f.write("\n")
-        for i in city:
-            f.write(f"{i[0]}: {i[1]}\n")
+        for j in range(len(city)):
+            i = city[j]
+            f.write(f"{i[0]}: {i[1]}")
+            if j < len(city):
+                f.write("\n")
 
 
-
+print(taylorFlights(1))
