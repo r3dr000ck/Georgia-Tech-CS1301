@@ -141,6 +141,58 @@ def fantasyF1(cat, pick):
                 ret += cat[j][i]
     return ret
 
+with open("swiftieFlights.txt", "r", encoding="utf-8") as f:
+    d1 = f.readline()
+    d2 = f.readline()
+    txt = f.read()
+
+flights = []
+
+tmp = []
+j = 0
+
+for i in txt.split("\n"):
+    if j == 0:
+        tmp.append(i)
+        j += 1
+    elif j == 1:
+        fl = i.split(" ")
+        tmp.append(int(fl[0]))
+        j += 1
+    elif j == 2:
+        fl = i.split(" ")
+        tmp.append(int(fl[0]))
+        j += 1
+    elif j == 3:
+        tmp.append(int(i[1:]))
+        j += 1
+    elif j == 4:
+        fl = i.split(" ")
+        tmp.append(float(fl[0]))
+        j += 1
+    else:
+        j = 0
+        flights.append(tmp)
+        tmp = []
+
+def taylorEmissions(r):
+    for i in flights:
+        if i[0] == r:
+            return i[4]
+
+def taylorFlights(c):
+    ret = []
+    for i in flights:
+        if i[4] > float(c):
+            ret.append(i[0])
+    return sorted(ret)
+
+def transportationModes(city):
+    with open("transportationModes.txt", "w", encoding="utf-8") as f:
+        f.write("Transportation Modes\n")
+        f.write("\n")
+        for i in city:
+            f.write(f"{i[0]}: {i[1]}\n")
 
 
 
