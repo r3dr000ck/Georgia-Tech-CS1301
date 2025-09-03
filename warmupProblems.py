@@ -1,3 +1,5 @@
+import math
+
 def techLibs():
     name = input("Enter your name: ")
     bf = input("Enter your best friend's name: ")
@@ -17,7 +19,7 @@ def sphereVol():
 
 def italianNight(time):
     if time < 20.0:
-        return "We'll cook some othertime."
+        return "We'll cook some other time."
     elif time < 35.0:
         return "Breadsticks"
     elif time < 50:
@@ -89,6 +91,56 @@ def mutualInterests(your, their):
         if i in their:
             ret.append(i)
     return sorted(ret)
+
+def numInventions(inv):
+    ret = 0
+    for i in inv:
+        if i[1]:
+            ret += 1
+    return ret
+
+def helpPhineas(want, l):
+    for i in l:
+        if i[0] == want:
+            if 1 <= i[1] and i[1] <= 8:
+                return True
+    return False
+
+def agentDispatch(coo, agen):
+    shr = 1e10
+    m = ""
+    for i in agen:
+        d = math.dist(coo, i[1])
+        if d < shr:
+            m = i[0]
+            shr = d
+    return m
+
+def bestCity(vd):
+    c = ""
+    ma = 0
+    for i in vd:
+        cnt = len(vd[i])
+        if cnt > ma:
+            ma = cnt
+            c = i
+    return c
+
+def winningTeam(d):
+    ret = []
+    for i in d:
+        if d[i][1] >= 25:
+            ret.append(i)
+    return sorted(ret)
+
+def fantasyF1(cat, pick):
+    ret = 0
+    for i in pick:
+        for j in cat:
+            if i in cat[j]:
+                ret += cat[j][i]
+    return ret
+
 
 
 
