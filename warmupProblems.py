@@ -17,13 +17,13 @@ def sphereVol():
 
 def italianNight(time):
     if time < 20.0:
-        print("We'll cook some othertime.")
+        print("'We'll cook some othertime.'")
     elif time < 35.0:
-        print("Breadsticks")
+        print("'Breadsticks'")
     elif time < 50:
-        print("Pasta")
+        print("'Pasta'")
     else:
-        print("Lasagna")
+        print("'Lasagna'")
 
 def toCook(numclass, dollar):
     if numclass > 3 and dollar > 10.0:
