@@ -17,13 +17,13 @@ def sphereVol():
 
 def italianNight(time):
     if time < 20.0:
-        print("'We'll cook some othertime.'")
+        return "We'll cook some othertime."
     elif time < 35.0:
-        print("'Breadsticks'")
+        return "Breadsticks"
     elif time < 50:
-        print("'Pasta'")
+        return "Pasta"
     else:
-        print("'Lasagna'")
+        return "Lasagna"
 
 def toCook(numclass, dollar):
     if numclass > 3 and dollar > 10.0:
@@ -40,3 +40,55 @@ def cookingClass(date, isw):
         return "No"
     else:
         return "Yes"
+
+def captureTheFlag(dir):
+    t = dir[::-1]
+    for s in t:
+        if s == "L":
+            print("Turn left!")
+        else:
+            print("Turn right!")
+
+def demystifyMessage(msg):
+    t = ""
+    for i in msg:
+        if i.isalpha():
+            t += i
+    return t
+
+def gnomeAccounting(msg):
+    for i in range(len(msg) // 6):
+        print(msg[(6 * i) : (6 * (i + 1))])
+
+def countCase(let):
+    up = 0
+    lo = 0
+    for i in let:
+        if i.isalpha():
+            if i.islower():
+                lo += 1
+            else:
+                up += 1
+    if up == lo:
+        return "Perfectly balanced!"
+    elif up > lo:
+        return f"{up - lo} more uppercase letter(s)."
+    else:
+        return f"{lo - up} more lowercase letter(s)."
+
+def findLove(cand, city):
+    ret = []
+    for i in cand:
+        if i[1] == city:
+            ret.append(i[0])
+    return sorted(ret)
+
+def mutualInterests(your, their):
+    ret = []
+    for i in your:
+        if i in their:
+            ret.append(i)
+    return sorted(ret)
+
+
+
