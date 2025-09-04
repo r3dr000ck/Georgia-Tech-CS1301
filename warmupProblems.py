@@ -324,7 +324,7 @@ class Villain:
         return f"{self.name} has {self.health} health and {self.damage} damage."
 
 class Universe:
-    def __init__(self, name: str, spiderList: list, villainList: list):
+    def __init__(self, name: str):
         self.name = name
         self.spiderList = []
         self.villainList = []
