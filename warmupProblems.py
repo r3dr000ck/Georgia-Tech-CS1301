@@ -266,16 +266,22 @@ def mergeTeamNames(t1, t2):
     if t1 == "" and t2 == "":
         return ""
     elif t1 == "":
-        return t2
+        if t2[0] == "=":
+            return t2[1:]
+        else:
+            return t2
     elif t2 == "":
-        return t1
+        if t1[0] == "=":
+            return t1[1:]
+        else:
+            return t1
     else:
         if t1[0] == "=":
             if len(t1) > 1:
                 return t1[1] + mergeTeamNames(t1[2:], "=" + t2)
             else:
                 return t1[1] + mergeTeamNames("", t2)
-        elif t2 [0] == " ":
+        elif t2 [0] == "=":
             if len(t2) > 1:
                 return t2[1] + mergeTeamNames("=" + t1, t2[2:])
             else:
@@ -285,5 +291,3 @@ def mergeTeamNames(t1, t2):
                 return t1[0] + mergeTeamNames(t1[1:], "=" + t2)
             else:
                 return t1[0] + mergeTeamNames("", t2)
-
-
