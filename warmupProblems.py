@@ -1,4 +1,5 @@
 import math
+import requests
 
 def techLibs():
     name = input("Enter your name: ")
@@ -196,8 +197,31 @@ def transportationModes(city):
         for j in range(len(city)):
             i = city[j]
             f.write(f"{i[0]}: {i[1]}")
-            if j < len(city):
+            if j < len(city) - 1:
                 f.write("\n")
 
+url = "https://ghibliapi.vercel.app/films"
 
-print(taylorFlights(1))
+response = requests.get(url)
+ghibli = response.json()
+
+def letterLover(s):
+    ret = []
+    for film in ghibli:
+        if film["title"][0].lower() == s.lower():
+            ret.append(film["title"])
+    return sorted(ret)
+
+def speciesFinder(eye):
+    for film in ghibli:
+        for l in film["species"]:
+            rq = requests.get(l)
+            sp = rq.json()
+            eye_l = sp["eye_colors"]
+            if eye in eye_l:
+                return True
+    return False
+
+
+
+

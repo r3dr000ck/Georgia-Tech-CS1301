@@ -1,5 +1,0 @@
-Transportation Modes
-
-Bus: 6
-Train: 7
-Plane: 2
