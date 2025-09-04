@@ -291,3 +291,63 @@ def mergeTeamNames(t1, t2):
                 return t1[0] + mergeTeamNames(t1[1:], "=" + t2)
             else:
                 return t1[0] + mergeTeamNames("", t2)
+
+class Spiderman:
+    def __init__(self, name: str, health: float, damage: float):
+        self.name = name
+        self.health = health
+        self.damage = damage
+    
+    def webStrike(self, villain):
+        villain.health -= self.damage
+        if villain.health <= 0:
+            print(f"{villain.name} has been defeated!")
+            villain.isDefeated = True
+    
+    def __gt__(self, other):
+        return self.health > other
+
+class Villain:
+    def __init__(self, name: str, health: float, damage: float, isDefeated: bool):
+        self.name = name
+        self.health = health
+        self.damage = damage
+        self.isDefeated = False
+    
+    def attack(self, spiderman):
+        if not self.isDefeated:
+            spiderman.health -= self.damage
+        else:
+            print(f"{self.name} is already defeated!")
+    
+    def __str__(self):
+        return f"{self.name} has {self.health} health and {self.damage} damage."
+
+class Universe:
+    def __init__(self, name: str, spiderList: list, villainList: list):
+        self.name = name
+        self.spiderList = []
+        self.villainList = []
+    
+    def transportSpiderman(self, spiderman):
+        self.spiderList.append(spiderman)
+    
+    def transportVillain(self, villain):
+        self.villainList.append(villain)
+    
+    def battle(self, spiderman, villain):
+        if self.spiderList == []:
+            print(f"{spiderman.name} not found.")
+        
+        if self.villainList == []:
+            print(f"{villain.name} not found.")
+        
+        if not self.spiderList == [] and not self.villainList == []:
+            while spiderman.health > 0 and villain.health > 0:
+                spiderman.webStrike(villain)
+                villain.attack(spiderman)
+            
+            if spiderman.health <= 0:
+                print(f"{spiderman.name} lost the battle!")
+            else:
+                print(f"{villain.name} lost the battle!")
