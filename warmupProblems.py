@@ -305,7 +305,7 @@ class Spiderman:
             villain.isDefeated = True
     
     def __gt__(self, other):
-        return self.health > other
+        return self.health > other.health
 
 class Villain:
     def __init__(self, name: str, health: float, damage: float):
