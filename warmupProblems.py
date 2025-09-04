@@ -224,5 +224,48 @@ def speciesFinder(eye):
         
     return False
 
+def characters(name):
+    ret = []
+
+    url = "https://ghibliapi.vercel.app/films"
+
+    response = requests.get(url)
+    ghibli = response.json()
+
+    for film in ghibli:
+        if film["title"] == name:
+            l = film["people"]
+            for a in l:
+                if a == "https://ghibli‐api.vercel.app/people/":
+                    return False
+                resp = requests.get(a)
+                n = resp.json()
+                ret.append(n["name"])
+    
+    return sorted(ret)
+
+def foulCount(l):
+    if l == []:
+        return 0
+    af = l.pop()
+    return (af[1] + foulCount(l))
+
+def convertTeams(tu):
+    if len(tu) == 0:
+        return ()
+    tmp = list(tu)
+    a = tmp.pop()
+    tu = tuple(tmp)
+    if isinstance(a, str):
+        return convertTeams(tu) + (tuple([a]))
+    else:
+        return (convertTeams(tu))
+
+
+
+
+
+
+
 
 
