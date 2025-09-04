@@ -237,7 +237,7 @@ def characters(name):
             l = film["people"]
             for a in l:
                 if a == "https://ghibli‐api.vercel.app/people/":
-                    return False
+                    return []
                 resp = requests.get(a)
                 n = resp.json()
                 ret.append(n["name"])
@@ -252,16 +252,14 @@ def foulCount(l):
 
 def convertTeams(tu):
     if len(tu) == 0:
-        return ()
+        return []
     tmp = list(tu)
     a = tmp.pop()
     tu = tuple(tmp)
     if isinstance(a, str):
-        return convertTeams(tu) + (tuple([a]))
+        return convertTeams(tu) + [a]
     else:
-        return (convertTeams(tu))
-
-
+        return convertTeams(tu)
 
 
 
