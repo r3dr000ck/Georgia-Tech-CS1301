@@ -331,9 +331,11 @@ class Universe:
     
     def transportSpiderman(self, spiderman):
         self.spiderList.append(spiderman.name)
+        self.spiderList = sorted(self.spiderList)
     
     def transportVillain(self, villain):
         self.villainList.append(villain.name)
+        self.villainList = sorted(self.villainList)
     
     def battle(self, spiderman, villain):
         if self.spiderList == []:
