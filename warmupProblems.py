@@ -200,12 +200,12 @@ def transportationModes(city):
             if j < len(city) - 1:
                 f.write("\n")
 
-url = "https://ghibliapi.vercel.app/films"
-
-response = requests.get(url)
-ghibli = response.json()
-
 def letterLover(s):
+    url = "https://ghibliapi.vercel.app/films"
+
+    response = requests.get(url)
+    ghibli = response.json()
+
     ret = []
     for film in ghibli:
         if film["title"][0].lower() == s.lower():
@@ -213,15 +213,16 @@ def letterLover(s):
     return sorted(ret)
 
 def speciesFinder(eye):
-    for film in ghibli:
-        for l in film["species"]:
-            rq = requests.get(l)
-            sp = rq.json()
-            eye_l = sp["eye_colors"]
-            if eye in eye_l:
-                return True
-    return False
+    l = "https://ghibliapi.vercel.app/people"
 
+    rp = requests.get(l)
+    eyes = rp.json()
+
+    for e in eyes:
+        if eye == e["eye_color"]:
+            return True
+        
+    return False
 
 
 
