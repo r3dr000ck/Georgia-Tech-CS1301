@@ -308,7 +308,7 @@ class Spiderman:
         return self.health > other
 
 class Villain:
-    def __init__(self, name: str, health: float, damage: float, isDefeated: bool):
+    def __init__(self, name: str, health: float, damage: float):
         self.name = name
         self.health = health
         self.damage = damage
