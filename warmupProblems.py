@@ -236,11 +236,12 @@ def characters(name):
         if film["title"] == name:
             l = film["people"]
             for a in l:
-                if a == "https://ghibli‐api.vercel.app/people/":
+                if a == "https://ghibliapi.vercel.app/people/":
                     return []
-                resp = requests.get(a)
-                n = resp.json()
-                ret.append(n["name"])
+                else:
+                    resp = requests.get(a)
+                    n = resp.json()
+                    ret.append(n["name"])
     
     return sorted(ret)
 
@@ -261,9 +262,28 @@ def convertTeams(tu):
     else:
         return convertTeams(tu)
 
-
-
-
-
+def mergeTeamNames(t1, t2):
+    if t1 == "" and t2 == "":
+        return ""
+    elif t1 == "":
+        return t2
+    elif t2 == "":
+        return t1
+    else:
+        if t1[0] == " ":
+            if len(t1) > 2:
+                return t1[1] + mergeTeamNames(t1[2:], " " + t2)
+            else:
+                return t1[1] + mergeTeamNames("", t2)
+        elif t2 [0] == " ":
+            if len(t2) > 2:
+                return t2[1] + mergeTeamNames(" " + t1, t2[2:])
+            else:
+                return t2[1] + mergeTeamNames(t1, "")
+        else:
+            if len(t1) > 1:
+                return t1[0] + mergeTeamNames(t1[1:], " " + t2)
+            else:
+                return t1[0] + mergeTeamNames("", t2)
 
 
