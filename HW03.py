@@ -94,7 +94,7 @@ def extinguishFire(psw, t):
                 rem -= 5
     
     if rem > 0:
-        return f"Congrats! you have put out the fire with {rem} minute(s) to spare!"
+        return f"Congrats! You have put out the fire with {rem} minute(s) to spare!"
     else:
         return "Oh no! I was too late to save the engine room!"
 
@@ -107,7 +107,7 @@ Returns: dockingStatus (str)
 """
 
 def dockAlign(cor, lim):
-    now = 0
+    now = 1
     j = 0
 
     while j < len(cor):
@@ -126,7 +126,7 @@ def dockAlign(cor, lim):
         else:
             j += 1
         
-        if abs(now) >= lim:
+        if abs(now) > lim:
             return f"Docking failed at position {j + 1} (offset {now})."
         
         j += 1
@@ -135,6 +135,5 @@ def dockAlign(cor, lim):
         return "Docking was a complete success!"
     else:
         return f"Docking complete with residual offset {now}."
-
 
 #########################################
