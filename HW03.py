@@ -92,7 +92,7 @@ def extinguishFire(psw, t):
         elif i in n:
             sp += 5
     
-    if sp < t:
+    if sp <= t:
         return f"Congrats! You have put out the fire with {t - sp} minute(s) to spare!"
     else:
         return "Oh no! I was too late to save the engine room!"
