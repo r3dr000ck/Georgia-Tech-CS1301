@@ -80,18 +80,17 @@ Parameters: password (str), maxTime (int)
 Returns: outcome (str)
 """
 
-n = "0123456789"
+n = "02468"
 v = "aiueo"
 
 def extinguishFire(psw, t):
     rem = t
 
     for i in psw:
-        if i in v:
+        if i.lower() in v:
             rem -= 2
         elif i in n:
-            if int(i) % 2 == 0:
-                rem -= 5
+            rem -= 5
     
     if rem > 0:
         return f"Congrats! You have put out the fire with {rem} minute(s) to spare!"
@@ -107,7 +106,7 @@ Returns: dockingStatus (str)
 """
 
 def dockAlign(cor, lim):
-    now = 1
+    now = 0
     j = 0
 
     while j < len(cor):
@@ -126,11 +125,11 @@ def dockAlign(cor, lim):
         else:
             j += 1
         
-        if abs(now) > lim:
-            return f"Docking failed at position {j + 1} (offset {now})."
-        
         j += 1
-    
+
+        if abs(now) > lim:
+            return f"Docking failed at position {j} (offset {now})."
+        
     if now == 0:
         return "Docking was a complete success!"
     else:
