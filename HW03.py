@@ -122,13 +122,13 @@ def dockAlign(cor, lim):
                 now -= 1
         elif i == "!":
             now *= 2
-        else:
+        elif i == "[":
             j += 1
-        
-        j += 1
-
+    
         if abs(now) > lim:
             return f"Docking failed at position {j} (offset {now})."
+        
+        j += 1
         
     if now == 0:
         return "Docking was a complete success!"
