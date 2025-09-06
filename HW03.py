@@ -81,19 +81,19 @@ Returns: outcome (str)
 """
 
 n = "02468"
-v = "aiueo"
+v = "aiueoAIUEO"
 
 def extinguishFire(psw, t):
-    rem = t
+    sp = 0
 
     for i in psw:
-        if i.lower() in v:
-            rem -= 2
+        if i in v:
+            sp += 2
         elif i in n:
-            rem -= 5
+            sp += 5
     
-    if rem > 0:
-        return f"Congrats! You have put out the fire with {rem} minute(s) to spare!"
+    if sp < t:
+        return f"Congrats! You have put out the fire with {t - sp} minute(s) to spare!"
     else:
         return "Oh no! I was too late to save the engine room!"
 
