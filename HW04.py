@@ -49,7 +49,7 @@ Returns: coordinates (str)
 def getCoordinates(loc):
     c1, c2 = -1, -1
     for i in range(len(loc)):
-        if loc[i] == "e":
+        if loc[i].lower() == "e":
             if c1 < 0:
                 c1 = i * 9
             else:
@@ -80,9 +80,9 @@ def spyBudget(g, d):
                 tot += 30
         else:
             cntc += 1
-            if cntc == 2:
-                pass
-            elif cntc > 2:
+            if cntc == 3:
+                tot -= 10
+            elif cntc > 3:
                 tot += 10
             else:
                 tot += 20
