@@ -1,5 +1,4 @@
 import streamlit as st
-import pandas as pd
 
 st.title("Japan Trivia Quiz")
 st.write("Welcome to Japanese quiz! Let's see how much you know about Japan 🇯🇵!")
@@ -35,6 +34,7 @@ q1 = st.radio(
 st.button("Submit", key="q1_submit", disabled=("q1" in st.session_state.answered), on_click=lambda: submit("q1", q1 == "Tokyo", "Tokyo")) #NEW
 
 st.subheader("Question 2")
+st.image("Images/cur.jpg", width=250)
 q2 = st.selectbox(
     "What is the currency of Japan?",
     ["Euro", "Pound", "Peso", "Yen", "Rupee"],

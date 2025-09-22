@@ -1,14 +1,13 @@
 import streamlit as st
 
 # Title of App
-st.title("Web Development Lab03")
+st.title("Web Development Lab")
 
 # Assignment Data 
 # TODO: Fill out your team number, section, and team members
 
 st.header("CS 1301")
-st.subheader("Team XX, Web Development - Section X")
-st.subheader("Team Member 1, Team Member 2")
+st.subheader("Keigo Yoshioka")
 
 
 # Introduction
@@ -19,12 +18,10 @@ st.subheader("Team Member 1, Team Member 2")
 #       4. **Page Name**: Description
 
 st.write("""
-Welcome to our Streamlit Web Development Lab03 app! You can navigate between the pages using the sidebar to the left. The following pages are:
+Welcome to my Streamlit Web Development Lab app! You can navigate between the pages using the sidebar to the left. The following pages are:
 
-1.
-2.
-3.
-4.
+1. **Japan Trivia**: a fun trivia game about Japan!
+2. **Portfolio**: my personal portfolio page describing my education, experience, projects, skills, and activities.
 
 """)
 
