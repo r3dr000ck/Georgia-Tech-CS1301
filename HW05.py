@@ -77,8 +77,8 @@ Returns: player (str)
 """
 
 def topScorer(data):
-    s = sorted(data, key=lambda x: (x[1]), reverse=True)
-    s = sorted(s, key=lambda x: (x[2]), reverse=True)
+    s = sorted(data, key=lambda x: (x[2]), reverse=True)
+    s = sorted(s, key=lambda x: (x[1]), reverse=True)
     ret = []
     for i in s:
         ret.append(i[0])
