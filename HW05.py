@@ -14,7 +14,7 @@ Returns: advancedTeams (list)
 def roundOf16(teams, points):
     ret = []
     for i in range(len(teams)):
-        if points[i] >= 16:
+        if points[i] >= 15:
             ret.append(teams[i])
     return sorted(ret)
 
@@ -64,7 +64,7 @@ def snackPlan(snacks, budget):
         else:
             ret.append(d[i])
     if len(ret) == 0:
-        print("No more shopping!")
+        return "No more shopping!"
     else:
         return sorted(ret, key=lambda x: (x[0]))
 
@@ -77,13 +77,13 @@ Returns: player (str)
 """
 
 def topScorer(data):
-    s = sorted(data, key=lambda x: (x[1], x[0]), reverse=True)
+    s = sorted(data, key=lambda x: (x[1]), reverse=True)
+    s = sorted(s, key=lambda x: (x[2]), reverse=True)
     ret = []
     for i in s:
         ret.append(i[0])
     print(f"{ret[0]} is the best!")
     return ret
-
 
 #########################################
 
