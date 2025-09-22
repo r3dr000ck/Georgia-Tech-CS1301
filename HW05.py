@@ -55,18 +55,18 @@ def snackPlan(snacks, budget):
         d[i[1]] = (i[0], i[2])
     d = dict(sorted(d.items(), reverse=True))
     rem = budget
-    cnt = 0
     ret = []
     for i in d:
         rem -= (i * int(d[i][1]))
-        cnt += 1
         if rem < 0:
-            if cnt == 1:
-                return "No more shopping!"
-            else:
-                return ret
-        ret.append(d[i])
-    return ret
+            rem += (i * int(d[i][1]))
+            pass
+        else:
+            ret.append(d[i])
+    if len(ret) == 0:
+        print("No more shopping!")
+    else:
+        return sorted(ret, key=lambda x: (x[0]))
 
 #########################################
 
@@ -82,7 +82,7 @@ def topScorer(data):
     for i in s:
         ret.append(i[0])
     print(f"{ret[0]} is the best!")
-    return ret[0]
+    return ret
 
 
 #########################################
