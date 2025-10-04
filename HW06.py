@@ -134,7 +134,7 @@ def gringotts(dep):
         a = 0
         for k in ret[j]:
             a += ret[j][k]
-        if a > 100:
+        if a >= 100:
             fin[j] = ret[j]
         
     return fin
