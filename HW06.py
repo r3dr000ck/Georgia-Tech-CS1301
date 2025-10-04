@@ -44,7 +44,9 @@ def pointsTally(l):
         else:
             s[i[0]] = i[1]
     if len(s) == 0:
-        return "No winners!"
+        print("No winners!")
+    else:
+        print(f"Contestants: {', '.join(s.keys())}")
     return s
 
 #########################################
@@ -129,13 +131,11 @@ def gringotts(dep):
             ret[name] = {bank: am}
     fin = {}
     for j in ret:
-        if j not in fin:
-            fin[j] = {}
+        a = 0
         for k in ret[j]:
-            if ret[j][k] > 100:
-                fin[j][k] = ret[j][k]
-        if len(fin[j]) == 0:
-            del fin[j]
+            a += ret[j][k]
+        if a > 100:
+            fin[j] = ret[j]
         
     return fin
 
