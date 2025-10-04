@@ -56,7 +56,7 @@ q4 = st.slider(
     "How many prefectures are there in Japan?",
     min_value=1,
     max_value=100,
-    value=1
+    value=1 
 ) #NEW
 st.button("Submit", key="q4_submit", disabled=("q4" in st.session_state.answered), on_click=lambda: submit("q4", q4 == 47, "47"))
 
