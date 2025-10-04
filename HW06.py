@@ -12,7 +12,7 @@ Returns: house_spell_counts (dict)
 """
 
 def favoriteSpells(d, na):
-    print(f"{na} from {d[na]["House"]}'s favorite spell is {d[na]["Favorite Spell"]}.")
+    print(f"{na} from {d[na]['House']}'s favorite spell is {d[na]['Favorite Spell']}.")
     ret = {}
     for i in d:
         if d[i]["Favorite Spell"] in ret:
