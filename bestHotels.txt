@@ -1,0 +1,7 @@
+The following hotels are great choices:
+
+The cost to stay in Austin's hotel is $597.50.
+The cost to stay in Boise's hotel is $170.00.
+The cost to stay in Phoenix's hotel is $286.50.
+
+The average rating of all affordable hotels is 7.00.

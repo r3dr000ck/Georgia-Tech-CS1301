@@ -63,10 +63,12 @@ def findAffordableHotels(m):
             for i in range(len(hotels)):
                 of.write(f"The cost to stay in {hotels[i]}'s hotel is ${costs[i]}.\n")
             of.write("\n")
-            r = format(avg / len(hotels)), ".2f"
+            r = format(avg / len(hotels), ".2f")
             of.write(f"The average rating of all affordable hotels is {r}.")
             of.close()
     f.close()
+    
+findAffordableHotels(125.50)
 
 #########################################
 
@@ -123,11 +125,14 @@ Parameters: originCountry (str), destCountry (str), flightsList (list)
 Returns: message (str)
 """
 
+import time
+
 def worstRoutes_list(org, dest, fl):
     m = 0
     for i in fl:
         if i[0] == org and i[1] == dest:
             m = max(m, i[2])
+            time.sleep(0.0001) 
     return f"{org} to {dest}: {m} carbon emissions."
 
 flightsList = csvToList("flight_emissions_data_short.csv")
