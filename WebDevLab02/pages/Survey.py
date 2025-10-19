@@ -22,7 +22,7 @@ st.write("Please fill out the form below to add your data to the dataset.")
 with st.form("survey_form"):
     # Create text input widgets for the user to enter data.
     # The first argument is the label that appears above the input box.
-    category_input = st.text_input("Enter a category:")
+    category_input = st.text_input("Enter a category (name of fruit):")
     value_input = st.text_input("Enter a corresponding value:")
 
     # The submit button for the form.
@@ -47,7 +47,6 @@ with st.form("survey_form"):
         
         nr.to_csv("data.csv", mode='a', index=False, header=False)
         
-                
         st.success("Your data has been submitted!")
         st.write(f"You entered: **Category:** {category_input}, **Value:** {value_input}")
 

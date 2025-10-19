@@ -1,0 +1,999 @@
+from_country,dest_country,co2_emissions
+Egypt,United Arab Emirates,331000
+Columbia,Algeria,943000
+Columbia,Algeria,937000
+Columbia,Algeria,943000
+Columbia,Algeria,943000
+Columbia,Australia,2107000
+Columbia,Austria,903000
+Columbia,Austria,903000
+Columbia,Austria,914000
+Columbia,Dublin,891000
+Columbia,Dublin,913000
+Columbia,Dublin,913000
+Columbia,France,785000
+Columbia,India,1332000
+Columbia,India,1630000
+Columbia,Italy,891000
+Columbia,Italy,891000
+Columbia,Egypt,1144000
+Columbia,Kenya,1513000
+Columbia,Kenya,1609000
+Columbia,Morocco,992000
+Columbia,Morocco,1010000
+Columbia,Morocco,1010000
+Columbia,Germany,887000
+Columbia,Germany,887000
+Columbia,Germany,889000
+Columbia,Greece,1048000
+Columbia,Greece,1048000
+Columbia,Greece,997000
+Columbia,Greece,997000
+Columbia,Portugal,952000
+Columbia,Portugal,952000
+Columbia,Portugal,937000
+Columbia,Portugal,966000
+Columbia,India,1497000
+Columbia,India,1653000
+Columbia,India,1645000
+Columbia,Australia,2323000
+Columbia,Australia,2222000
+Columbia,Belgium,912000
+Columbia,Belgium,912000
+Columbia,Belgium,912000
+Columbia,South Africa,1769000
+Columbia,Malaysia,1670000
+Columbia,Malaysia,1670000
+Columbia,Spain,927000
+Columbia,Spain,916000
+Columbia,Spain,944000
+Columbia,Netherlands,852000
+Columbia,Netherlands,852000
+Columbia,Netherlands,858000
+Columbia,Netherlands,852000
+Columbia,Netherlands,864000
+Columbia,Netherlands,852000
+Columbia,Netherlands,866000
+Columbia,Netherlands,866000
+Columbia,Thailand,1912000
+Columbia,United Arab Emirates,1389000
+Columbia,United Arab Emirates,1389000
+Columbia,United Arab Emirates,1394000
+Columbia,United Arab Emirates,1402000
+Columbia,United Arab Emirates,1401000
+Columbia,United Arab Emirates,1389000
+Columbia,United Arab Emirates,1389000
+Columbia,United Kingdom,867000
+Columbia,United Kingdom,867000
+Columbia,Denmark,900000
+Columbia,Denmark,900000
+Columbia,Denmark,911000
+Columbia,South Africa,1738000
+Columbia,South Africa,1738000
+Columbia,South Africa,1743000
+Columbia,Germany,901000
+Columbia,Germany,872000
+Columbia,Germany,881000
+Columbia,Sweden,949000
+Columbia,Sweden,958000
+Columbia,India,1299000
+Columbia,India,1519000
+Columbia,India,1512000
+Columbia,Indonesia,1743000
+Columbia,Turkey,1018000
+Columbia,Japan,1853000
+Columbia,United Kingdom,847000
+Columbia,United Kingdom,844000
+Columbia,United Kingdom,847000
+Columbia,United Kingdom,859000
+Columbia,Norway,955000
+Columbia,Rome,931000
+Columbia,Rome,947000
+Columbia,Rome,931000
+Columbia,Rome,1000000
+Columbia,Rome,1027000
+Columbia,Singapore,2058000
+Columbia,Singapore,1616000
+Columbia,Zurich,876000
+Columbia,Zurich,876000
+Ethiopia,Brazil,4955000
+Ethiopia,Germany,626000
+Ethiopia,Germany,564000
+Ethiopia,Germany,596000
+Ethiopia,Germany,584000
+Ethiopia,Germany,596000
+Ethiopia,Germany,596000
+Ethiopia,Germany,599000
+Ethiopia,Germany,584000
+Ethiopia,Germany,584000
+Ethiopia,United Kingdom,863000
+Ethiopia,Zurich,702000
+Greece,Canada,1084000
+Greece,Denmark,435000
+Greece,Ethiopia,410000
+Greece,Austria,344000
+Greece,Germany,426000
+Greece,Germany,353000
+Greece,India,607000
+Greece,India,824000
+Greece,India,600000
+Greece,Italy,437000
+Greece,Italy,437000
+Greece,France,408000
+Greece,Belgium,436000
+Greece,South Africa,742000
+Greece,South Africa,802000
+Greece,India,745000
+Greece,India,688000
+Greece,India,889000
+Greece,India,623000
+Greece,India,654000
+Greece,Spain,503000
+Greece,Thailand,777000
+Greece,Thailand,1046000
+Greece,Thailand,822000
+Greece,Thailand,853000
+Greece,Thailand,830000
+Greece,United Arab Emirates,362000
+Greece,United Arab Emirates,362000
+Greece,United Arab Emirates,343000
+Greece,United Arab Emirates,343000
+Greece,Netherlands,497000
+Greece,Qatar,367000
+Greece,Qatar,314000
+Greece,Qatar,606000
+Greece,Egypt,120000
+Greece,Russia,386000
+Greece,Germany,421000
+Greece,Germany,507000
+Greece,South Africa,965000
+Greece,South Africa,925000
+Greece,India,780000
+Greece,India,765000
+Greece,India,845000
+Greece,India,548000
+Greece,India,580000
+Greece,Turkey,263000
+Greece,Turkey,263000
+Greece,Turkey,287000
+Greece,Turkey,291000
+Greece,Japan,1423000
+Greece,Japan,1103000
+Greece,Japan,1135000
+Greece,Japan,1112000
+Greece,United Kingdom,488000
+Greece,Philippines,1162000
+Greece,Philippines,1185000
+Greece,Philippines,1185000
+Greece,Rome,386000
+Greece,Rome,386000
+Greece,United States,1054000
+Greece,South Korea,993000
+Greece,South Korea,962000
+Greece,South Korea,2718000
+Greece,South Korea,2344000
+Greece,South Korea,970000
+Greece,South Korea,1277000
+Columbia,Brazil,708000
+Columbia,Brazil,694000
+Columbia,Brazil,738000
+Columbia,Brazil,690000
+Columbia,Brazil,666000
+Columbia,Brazil,701000
+Columbia,Brazil,666000
+Columbia,Argentina,534000
+Columbia,Argentina,534000
+Columbia,Argentina,973000
+Columbia,Argentina,957000
+Columbia,Argentina,1018000
+Columbia,Brazil,743000
+Columbia,Brazil,767000
+Columbia,Brazil,743000
+Columbia,Chile,396000
+Columbia,Australia,1492000
+Columbia,Peru,652000
+Columbia,Peru,635000
+Columbia,Peru,652000
+Columbia,Peru,697000
+Columbia,India,2717000
+Egypt,Russia,633000
+Ethiopia,India,414000
+Ethiopia,India,528000
+Ethiopia,India,528000
+Ethiopia,India,528000
+Ethiopia,India,521000
+Ethiopia,India,553000
+India,France,790000
+India,Malaysia,486000
+India,Malaysia,491000
+India,Australia,1302000
+India,Australia,996000
+India,Australia,1386000
+India,Australia,1386000
+India,Philippines,550000
+India,Vietnam,361000
+India,South Africa,1283000
+Chile,Thailand,2089000
+Chile,Thailand,2909000
+Chile,Thailand,2302000
+Chile,Thailand,2354000
+Chile,Thailand,2352000
+Chile,Thailand,2346000
+Chile,Thailand,2406000
+Chile,Thailand,2228000
+Chile,Thailand,2302000
+Chile,Thailand,2294000
+Chile,Thailand,2039000
+Chile,Japan,1918000
+Chile,Japan,2322000
+Chile,Japan,2339000
+Chile,Japan,1871000
+Chile,Japan,1871000
+Chile,Japan,2061000
+Chile,Japan,1633000
+Chile,Japan,1716000
+Chile,United States,899000
+Chile,Japan,1906000
+Chile,Japan,1872000
+Chile,Japan,1872000
+Chile,Japan,1612000
+Chile,Japan,1979000
+Chile,Japan,1722000
+Chile,United States,1128000
+Chile,United States,1144000
+Chile,Philippines,1999000
+Chile,United States,999000
+Chile,United States,987000
+Chile,United States,1006000
+Chile,United States,1006000
+Chile,United States,1006000
+Chile,United States,987000
+Chile,United States,1006000
+Chile,United States,1006000
+Chile,United States,1006000
+Chile,United States,987000
+Chile,United States,990000
+Chile,United States,1006000
+Chile,United States,1058000
+Chile,United States,1084000
+Chile,United States,1213000
+Chile,United States,999000
+Chile,South Korea,2162000
+Chile,South Korea,1729000
+Chile,South Korea,2162000
+Chile,South Korea,1729000
+Chile,South Korea,2313000
+Chile,United States,1013000
+Chile,United States,986000
+Chile,United States,1013000
+Chile,United States,995000
+Chile,United States,1013000
+Chile,United States,1151000
+Chile,United States,1245000
+Chile,United States,1248000
+Chile,United States,1124000
+Chile,United States,1087000
+Chile,United States,1071000
+Chile,United States,1087000
+Chile,United States,1085000
+Chile,United States,1086000
+Chile,United States,1087000
+Chile,United States,1073000
+Chile,United States,1071000
+Chile,United States,1192000
+Chile,United States,1194000
+Chile,United States,1149000
+Chile,United States,1179000
+Chile,United States,1124000
+Chile,United States,1147000
+Chile,United States,1179000
+Columbia,Australia,2221000
+Columbia,Australia,1889000
+Columbia,Australia,1889000
+Columbia,Australia,1849000
+Columbia,Australia,1889000
+Columbia,Australia,1849000
+Columbia,Australia,1889000
+Columbia,Australia,1849000
+Columbia,Australia,1874000
+Columbia,Australia,1849000
+Columbia,Canada,725000
+Columbia,Canada,686000
+Columbia,Canada,686000
+Columbia,Canada,745000
+Columbia,China,2246000
+Columbia,China,2053000
+Columbia,China,1707000
+Columbia,China,1620000
+Columbia,Dublin,1271000
+Columbia,Dublin,1271000
+Columbia,Dublin,1271000
+Columbia,Dublin,1256000
+Columbia,Dublin,1227000
+Columbia,France,1186000
+Columbia,China,2984000
+Columbia,China,2946000
+Columbia,China,2932000
+Columbia,China,2932000
+Columbia,Germany,1343000
+Columbia,Australia,1750000
+Columbia,Australia,2165000
+Columbia,Japan,1826000
+Columbia,Japan,1826000
+Columbia,Japan,1826000
+Columbia,Japan,1826000
+Columbia,Japan,1826000
+Columbia,Japan,1515000
+Columbia,Japan,1812000
+Columbia,Japan,1673000
+Columbia,Japan,1673000
+Columbia,Malaysia,2124000
+Columbia,Malaysia,2234000
+Columbia,Spain,1189000
+Columbia,China,2259000
+Columbia,China,2151000
+Columbia,China,2151000
+Columbia,China,1907000
+Columbia,China,1799000
+Columbia,China,1799000
+Columbia,China,6479000
+Columbia,Netherlands,1182000
+Columbia,Thailand,1912000
+Columbia,Thailand,2022000
+Columbia,Thailand,2297000
+Columbia,Thailand,2439000
+Columbia,China,1718000
+Columbia,China,1730000
+Columbia,China,2078000
+Columbia,China,1690000
+Columbia,China,1690000
+Columbia,China,1726000
+Columbia,China,1630000
+Columbia,China,2815000
+Columbia,China,6331000
+Columbia,Qatar,1511000
+Columbia,Qatar,1845000
+Columbia,United States,823000
+Columbia,United States,706000
+Columbia,United States,706000
+Columbia,United States,691000
+Columbia,United States,665000
+Columbia,United States,691000
+Columbia,United States,665000
+Columbia,United States,706000
+Columbia,United States,721000
+Columbia,United States,706000
+Columbia,United States,772000
+Columbia,United States,772000
+Columbia,United States,665000
+Columbia,United States,665000
+Columbia,United States,706000
+Columbia,United States,665000
+Columbia,United States,704000
+Columbia,United States,757000
+Columbia,United States,727000
+Columbia,United States,735000
+Columbia,United States,727000
+Columbia,United States,667000
+Columbia,United States,656000
+Columbia,United States,634000
+Columbia,United States,667000
+Columbia,United States,541000
+Columbia,United States,532000
+Columbia,United States,541000
+Columbia,United States,541000
+Columbia,United States,544000
+Columbia,United States,544000
+Columbia,United States,541000
+Columbia,United States,541000
+Columbia,United States,541000
+Columbia,Indonesia,1938000
+Columbia,Indonesia,2048000
+Columbia,United States,743000
+Columbia,United States,726000
+Columbia,United States,743000
+Columbia,United States,760000
+Columbia,United States,743000
+Columbia,United States,780000
+Columbia,United States,810000
+Columbia,United States,810000
+Columbia,United States,726000
+Columbia,United States,743000
+Columbia,United States,788000
+Columbia,United States,780000
+Columbia,United States,788000
+Columbia,United States,772000
+Columbia,United States,743000
+Columbia,United States,780000
+Columbia,United States,772000
+Columbia,United States,813000
+Columbia,United States,772000
+Columbia,United States,772000
+Columbia,Japan,1861000
+Columbia,Japan,1510000
+Columbia,United Kingdom,1737000
+Columbia,United Kingdom,1316000
+Columbia,Mexico,650000
+Columbia,Mexico,650000
+Columbia,Mexico,684000
+Columbia,Mexico,650000
+Columbia,United States,628000
+Columbia,United States,628000
+Columbia,United States,628000
+Columbia,United States,628000
+Columbia,United States,628000
+Columbia,United States,628000
+Columbia,United States,628000
+Columbia,Mexico,650000
+Columbia,Mexico,703000
+Columbia,United States,660000
+Columbia,United States,660000
+Columbia,United States,660000
+Columbia,United States,660000
+Columbia,United States,660000
+Columbia,United States,660000
+Columbia,United States,660000
+Columbia,United States,775000
+Columbia,United States,774000
+Columbia,United States,838000
+Columbia,United States,802000
+Columbia,United States,917000
+Columbia,United States,891000
+Columbia,United States,783000
+Columbia,United States,883000
+Columbia,United States,806000
+Columbia,United States,851000
+Columbia,United States,860000
+Columbia,United States,860000
+Columbia,United States,816000
+Columbia,United States,863000
+Columbia,United States,838000
+Columbia,United States,838000
+Columbia,United States,845000
+Columbia,United States,858000
+Columbia,United States,817000
+Columbia,United States,813000
+Columbia,United States,813000
+Columbia,United States,802000
+Columbia,United States,802000
+Columbia,United States,887000
+Columbia,United States,871000
+Columbia,United States,871000
+Columbia,United States,850000
+Columbia,United States,850000
+Columbia,United States,846000
+Columbia,United States,785000
+Columbia,United States,812000
+Columbia,United States,747000
+Columbia,United States,811000
+Columbia,United States,851000
+Columbia,United States,851000
+Columbia,United States,851000
+Columbia,United States,774000
+Columbia,United States,774000
+Columbia,United States,917000
+Columbia,United States,775000
+Columbia,United States,775000
+Columbia,United States,775000
+Columbia,United States,723000
+Columbia,United States,775000
+Columbia,United States,715000
+Columbia,United States,715000
+Columbia,United States,715000
+Columbia,Rome,1423000
+Columbia,Vietnam,1995000
+Columbia,Vietnam,1885000
+Columbia,Vietnam,1995000
+Columbia,Singapore,2118000
+Columbia,Singapore,2228000
+Columbia,Singapore,2574000
+Columbia,South Korea,1659000
+Columbia,South Korea,1521000
+Columbia,South Korea,1496000
+Columbia,South Korea,1496000
+Columbia,South Korea,1575000
+Columbia,Taiwan,1672000
+Columbia,Taiwan,1782000
+Columbia,United Kingdom,3514000
+Columbia,United States,631000
+Columbia,United States,639000
+Columbia,United States,631000
+Columbia,United States,611000
+Columbia,United States,639000
+Columbia,United States,631000
+Columbia,United States,631000
+Columbia,United States,644000
+Columbia,United States,627000
+Columbia,United States,649000
+Columbia,United States,719000
+Columbia,United States,619000
+Columbia,United States,714000
+Columbia,United States,714000
+Columbia,United States,714000
+Columbia,United States,714000
+Columbia,United States,640000
+Columbia,United States,726000
+Columbia,United States,726000
+Columbia,United States,649000
+Columbia,United States,649000
+Columbia,United States,649000
+Columbia,United States,743000
+Columbia,United States,732000
+Columbia,United States,788000
+Columbia,United States,762000
+Columbia,United States,762000
+Columbia,United States,619000
+Columbia,United States,649000
+Columbia,United States,714000
+Columbia,United States,714000
+Columbia,United States,759000
+Columbia,United States,714000
+Columbia,United States,788000
+Columbia,United States,799000
+Columbia,United States,785000
+Columbia,United States,759000
+Columbia,United States,619000
+Columbia,United States,732000
+Columbia,United States,688000
+Columbia,United States,688000
+Columbia,United States,651000
+Columbia,United States,797000
+Columbia,United States,797000
+Columbia,United States,687000
+Columbia,United States,674000
+Columbia,United States,687000
+Columbia,United States,790000
+Columbia,United States,797000
+Columbia,United States,790000
+Columbia,United States,797000
+Columbia,United States,790000
+Columbia,United States,687000
+Columbia,United States,674000
+Ethiopia,Denmark,655000
+Ethiopia,Denmark,580000
+Ethiopia,Denmark,655000
+Ethiopia,Denmark,636000
+Ethiopia,Denmark,655000
+Ethiopia,Denmark,656000
+Ethiopia,Denmark,636000
+Ethiopia,Denmark,655000
+Ethiopia,Denmark,655000
+Ethiopia,Denmark,638000
+Ethiopia,Denmark,600000
+Ethiopia,Denmark,580000
+Ethiopia,Denmark,600000
+Ethiopia,Denmark,580000
+Ethiopia,Denmark,618000
+Ethiopia,Denmark,600000
+Ethiopia,Denmark,580000
+Ethiopia,Denmark,580000
+Ethiopia,Denmark,600000
+Ethiopia,Denmark,636000
+Ethiopia,Denmark,668000
+Ethiopia,Dublin,653000
+Ethiopia,Netherlands,623000
+Ethiopia,Netherlands,671000
+Ethiopia,Netherlands,623000
+Ethiopia,United Kingdom,680000
+Ethiopia,United Kingdom,640000
+Ethiopia,Sweden,518000
+Ethiopia,United Kingdom,718000
+Ethiopia,United Kingdom,799000
+Ethiopia,United States,1577000
+Ethiopia,United States,1577000
+Ethiopia,Norway,576000
+Ethiopia,Norway,569000
+Ethiopia,Norway,591000
+Ethiopia,Norway,576000
+Ethiopia,United States,1640000
+Greece,Denmark,388000
+Greece,France,315000
+Greece,France,323000
+Greece,Netherlands,321000
+Greece,Netherlands,330000
+Greece,Netherlands,330000
+India,Australia,973000
+India,Australia,973000
+India,Australia,1280000
+India,Australia,1036000
+India,Australia,1036000
+India,Australia,973000
+India,Australia,1534000
+India,Australia,1363000
+India,Australia,1363000
+India,Australia,1091000
+India,Australia,1117000
+India,Australia,1091000
+India,Australia,1409000
+India,Australia,1409000
+India,Australia,1409000
+India,Australia,1309000
+India,Australia,1757000
+India,Australia,1792000
+India,Portugal,1549000
+India,Portugal,1584000
+India,Portugal,1549000
+India,South Africa,1260000
+Columbia,France,891000
+Columbia,France,3272000
+Columbia,France,3272000
+Columbia,Italy,997000
+Columbia,Egypt,1155000
+Columbia,Morocco,898000
+Columbia,Germany,963000
+Columbia,Germany,944000
+Columbia,Germany,944000
+Columbia,Germany,963000
+Columbia,Portugal,846000
+Columbia,Portugal,872000
+Columbia,Portugal,869000
+Columbia,Portugal,850000
+Columbia,Portugal,850000
+Columbia,Portugal,850000
+Columbia,Portugal,850000
+Columbia,Portugal,844000
+Columbia,Portugal,869000
+Columbia,Portugal,3204000
+Columbia,Belgium,924000
+Columbia,Belgium,924000
+Columbia,Belgium,950000
+Columbia,Spain,771000
+Columbia,Germany,907000
+Columbia,Germany,929000
+Columbia,Germany,907000
+Columbia,Sweden,1040000
+Columbia,Turkey,1055000
+Columbia,Turkey,1087000
+Columbia,Turkey,1138000
+Columbia,United Kingdom,943000
+Columbia,United Kingdom,918000
+Columbia,United Kingdom,3298000
+Columbia,Rome,939000
+Columbia,Rome,939000
+Columbia,Rome,926000
+Columbia,Turkey,1075000
+Columbia,United Kingdom,3290000
+Columbia,Zurich,3305000
+Columbia,Zurich,3362000
+Columbia,Zurich,3294000
+Egypt,Algeria,386000
+Egypt,Algeria,528000
+Egypt,Australia,1414000
+Egypt,Brazil,986000
+Egypt,Canada,1059000
+Egypt,Denmark,430000
+Egypt,Austria,307000
+Egypt,Austria,302000
+Egypt,Austria,264000
+Egypt,Austria,305000
+Egypt,Austria,286000
+Egypt,France,382000
+Egypt,France,412000
+Egypt,France,382000
+Egypt,France,339000
+Egypt,France,367000
+Egypt,India,707000
+Egypt,Italy,356000
+Egypt,Italy,357000
+Egypt,Italy,352000
+Egypt,Italy,357000
+Egypt,Dublin,410000
+Egypt,Dublin,483000
+Egypt,Morocco,529000
+Egypt,Germany,348000
+Egypt,Germany,323000
+Egypt,Germany,348000
+Egypt,Germany,335000
+Egypt,Germany,342000
+Egypt,Panama,1486000
+Egypt,Australia,1434000
+Egypt,Greece,236000
+Egypt,Greece,238000
+Egypt,Greece,236000
+Egypt,Greece,238000
+Egypt,Portugal,524000
+Egypt,Portugal,516000
+Egypt,Belgium,399000
+Egypt,Belgium,405000
+Egypt,Belgium,399000
+Egypt,Belgium,405000
+Egypt,Japan,1167000
+Egypt,Japan,1057000
+Egypt,Japan,1549000
+Egypt,Spain,459000
+Egypt,Spain,427000
+Egypt,Spain,427000
+Egypt,Netherlands,380000
+Egypt,Netherlands,337000
+Egypt,Netherlands,409000
+Egypt,Netherlands,380000
+Egypt,Netherlands,352000
+Egypt,Netherlands,408000
+Egypt,Netherlands,365000
+Egypt,Columbia,1372000
+Egypt,Columbia,1200000
+Egypt,Columbia,1198000
+Egypt,Qatar,464000
+Egypt,Qatar,396000
+Egypt,United Kingdom,424000
+Egypt,United Kingdom,455000
+Egypt,United Kingdom,455000
+Egypt,United Kingdom,471000
+Egypt,United States,1402000
+Egypt,United States,1402000
+Egypt,United States,1069000
+Egypt,United States,1279000
+Egypt,Germany,343000
+Egypt,Germany,343000
+Egypt,Germany,343000
+Egypt,Germany,312000
+Egypt,United States,1192000
+Egypt,United States,1135000
+Egypt,India,677000
+Egypt,Sweden,408000
+Egypt,Sweden,408000
+Egypt,Sweden,408000
+Egypt,Sweden,508000
+Egypt,Turkey,143000
+Egypt,Indonesia,1071000
+Egypt,Indonesia,1031000
+Egypt,United States,1317000
+Egypt,United States,1292000
+Egypt,United States,1183000
+Egypt,United Kingdom,448000
+Egypt,United Kingdom,359000
+Egypt,United Kingdom,440000
+Egypt,United Kingdom,436000
+Egypt,United States,1099000
+Egypt,United States,1376000
+Egypt,United States,1261000
+Egypt,United States,1418000
+Egypt,United States,964000
+Egypt,Mexico,1300000
+Egypt,Mexico,1132000
+Ethiopia,Algeria,601000
+Egypt,Norway,429000
+Egypt,Norway,402000
+Egypt,Norway,562000
+Egypt,United States,1006000
+Egypt,United States,1356000
+Egypt,United States,989000
+Ethiopia,Brazil,1571000
+Ethiopia,Brazil,1397000
+Ethiopia,Brazil,1550000
+Ethiopia,Brazil,1550000
+Ethiopia,Brazil,1550000
+Ethiopia,Brazil,1559000
+Ethiopia,Brazil,1559000
+Egypt,United States,1043000
+Egypt,United States,1043000
+Ethiopia,Canada,1094000
+Ethiopia,Canada,1067000
+Ethiopia,Canada,1019000
+Ethiopia,Canada,1012000
+Ethiopia,Canada,1012000
+Ethiopia,Canada,1019000
+Ethiopia,Canada,1012000
+Ethiopia,Canada,978000
+Ethiopia,Canada,1143000
+Ethiopia,Canada,1081000
+Ethiopia,Canada,1072000
+Ethiopia,Canada,1120000
+Ethiopia,Canada,1104000
+Ethiopia,Canada,1132000
+Ethiopia,Canada,1150000
+Ethiopia,Canada,1151000
+Ethiopia,Canada,1075000
+Ethiopia,Canada,1048000
+Ethiopia,Canada,1060000
+Ethiopia,Canada,1063000
+Ethiopia,Canada,1046000
+Ethiopia,Canada,1057000
+Ethiopia,Canada,1061000
+Ethiopia,Canada,1294000
+Ethiopia,Canada,1119000
+Ethiopia,Canada,1105000
+Ethiopia,Canada,1110000
+Ethiopia,Canada,1110000
+Ethiopia,Canada,1070000
+Ethiopia,Canada,1075000
+Ethiopia,Canada,1075000
+Ethiopia,Canada,1126000
+Ethiopia,Canada,1057000
+Ethiopia,Canada,1057000
+Ethiopia,Canada,1057000
+Ethiopia,Canada,1070000
+Ethiopia,Canada,1075000
+Ethiopia,Canada,4230000
+Ethiopia,Canada,4148000
+Ethiopia,Canada,4230000
+Ethiopia,Canada,1424000
+Ethiopia,Canada,1399000
+Egypt,Rome,289000
+Egypt,Rome,325000
+Egypt,Rome,322000
+Egypt,Rome,325000
+Egypt,Rome,415000
+Egypt,Rome,422000
+Egypt,Vietnam,1063000
+Egypt,Singapore,923000
+Egypt,Singapore,1069000
+Ethiopia,China,1552000
+Ethiopia,Austria,517000
+Ethiopia,Austria,499000
+Ethiopia,Austria,522000
+Ethiopia,Denmark,528000
+Ethiopia,Denmark,537000
+Ethiopia,Denmark,504000
+Ethiopia,Denmark,523000
+Ethiopia,Denmark,537000
+Ethiopia,Denmark,523000
+Ethiopia,Denmark,504000
+Ethiopia,Denmark,596000
+Ethiopia,Denmark,599000
+Ethiopia,Denmark,613000
+Ethiopia,Denmark,613000
+Ethiopia,Denmark,613000
+Ethiopia,Denmark,616000
+Ethiopia,Denmark,613000
+Ethiopia,Denmark,602000
+Ethiopia,Denmark,617000
+Ethiopia,Denmark,617000
+Ethiopia,Denmark,630000
+Ethiopia,Denmark,626000
+Ethiopia,Denmark,583000
+Ethiopia,Denmark,605000
+Ethiopia,Brazil,1474000
+Ethiopia,Brazil,1627000
+Ethiopia,Brazil,1627000
+Ethiopia,France,501000
+Ethiopia,France,514000
+Ethiopia,France,486000
+Ethiopia,France,505000
+Ethiopia,France,505000
+Ethiopia,France,490000
+Ethiopia,France,505000
+Ethiopia,France,574000
+Ethiopia,France,577000
+Ethiopia,France,574000
+Ethiopia,France,588000
+Ethiopia,France,585000
+Ethiopia,France,585000
+Ethiopia,France,572000
+Ethiopia,France,583000
+Ethiopia,France,586000
+Ethiopia,France,583000
+Ethiopia,France,583000
+Ethiopia,France,586000
+Ethiopia,France,586000
+Ethiopia,France,583000
+Ethiopia,France,572000
+Ethiopia,France,583000
+Ethiopia,France,583000
+Ethiopia,France,583000
+Ethiopia,France,583000
+Ethiopia,France,583000
+Egypt,United Kingdom,512000
+Egypt,United Kingdom,513000
+Egypt,United Kingdom,550000
+Egypt,United Kingdom,550000
+Egypt,United Kingdom,553000
+Egypt,United Kingdom,433000
+Egypt,United Kingdom,433000
+Egypt,United States,920000
+Egypt,United States,1141000
+Ethiopia,Italy,505000
+Ethiopia,Italy,489000
+Ethiopia,Italy,519000
+Egypt,United States,962000
+Egypt,United States,1172000
+Egypt,United States,1123000
+Egypt,United States,1089000
+Ethiopia,Dublin,586000
+Ethiopia,Dublin,569000
+Ethiopia,Morocco,667000
+Ethiopia,Germany,428000
+Ethiopia,Panama,1390000
+Ethiopia,Greece,585000
+Egypt,Zurich,362000
+Egypt,Zurich,358000
+Egypt,Zurich,355000
+Ethiopia,Portugal,601000
+Ethiopia,Belgium,495000
+Ethiopia,Belgium,485000
+Ethiopia,Belgium,488000
+Ethiopia,Belgium,505000
+Ethiopia,Belgium,495000
+Ethiopia,Belgium,485000
+Ethiopia,Belgium,496000
+Ethiopia,Belgium,587000
+Ethiopia,Belgium,584000
+Ethiopia,Belgium,584000
+Ethiopia,Belgium,555000
+Ethiopia,Belgium,566000
+Ethiopia,Belgium,566000
+Ethiopia,Belgium,569000
+Ethiopia,Belgium,566000
+Ethiopia,Belgium,575000
+Ethiopia,Belgium,590000
+Ethiopia,Belgium,587000
+Ethiopia,Belgium,587000
+Ethiopia,Belgium,587000
+Ethiopia,Belgium,587000
+Ethiopia,Belgium,590000
+Ethiopia,Belgium,587000
+Ethiopia,Belgium,593000
+Ethiopia,Belgium,488000
+Ethiopia,Belgium,659000
+Ethiopia,Japan,1622000
+Ethiopia,Japan,1198000
+Ethiopia,Japan,1622000
+Ethiopia,Spain,600000
+Ethiopia,Netherlands,492000
+Ethiopia,Netherlands,495000
+Ethiopia,Netherlands,495000
+Ethiopia,Netherlands,517000
+Ethiopia,Netherlands,503000
+Ethiopia,Netherlands,615000
+Ethiopia,Netherlands,615000
+Ethiopia,Netherlands,600000
+Ethiopia,Netherlands,612000
+Ethiopia,Netherlands,612000
+Ethiopia,Netherlands,591000
+Ethiopia,Netherlands,580000
+Ethiopia,Netherlands,591000
+Ethiopia,Netherlands,591000
+Ethiopia,Netherlands,594000
+Ethiopia,Netherlands,591000
+Ethiopia,Netherlands,515000
+Ethiopia,United Kingdom,544000
+Ethiopia,United Kingdom,544000
+Ethiopia,United Kingdom,544000
+Ethiopia,United Kingdom,544000
+Ethiopia,United Kingdom,650000
+Ethiopia,United Kingdom,646000
+Ethiopia,United Kingdom,635000
+Ethiopia,United Kingdom,646000
+Ethiopia,United Kingdom,650000
+Ethiopia,United Kingdom,646000
+Ethiopia,United Kingdom,646000
+Ethiopia,United Kingdom,560000
+Ethiopia,United Kingdom,560000
+Ethiopia,United Kingdom,756000
+Ethiopia,United Kingdom,729000
+Ethiopia,United States,1352000
+Ethiopia,United States,1432000
+Ethiopia,United States,1310000
+Ethiopia,United States,1432000
+Ethiopia,United States,1593000
+Ethiopia,United States,1305000
+Ethiopia,United States,1422000
+Ethiopia,United States,1564000
+Ethiopia,United States,1542000
+Ethiopia,United States,1679000
+Ethiopia,United States,1690000
+Ethiopia,United States,1693000
+Ethiopia,United States,1690000
+Ethiopia,United States,4434000
+Ethiopia,United States,4630000
+Ethiopia,United States,1485000
+Ethiopia,United States,1525000
+Ethiopia,United States,1152000
+Ethiopia,United States,1441000
+Ethiopia,United States,1265000
+Ethiopia,Germany,488000
+Ethiopia,Germany,484000
+Ethiopia,Germany,484000
+Ethiopia,Germany,473000
+Ethiopia,Sweden,582000
+Ethiopia,Sweden,582000
+Ethiopia,Sweden,562000
+Ethiopia,Sweden,552000
+Ethiopia,Sweden,544000
+Ethiopia,Sweden,604000
+Ethiopia,Sweden,582000
+Ethiopia,Sweden,650000
+Ethiopia,Sweden,628000
+Ethiopia,Sweden,631000
+Ethiopia,Sweden,617000
+Ethiopia,Sweden,636000

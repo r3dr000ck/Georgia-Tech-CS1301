@@ -1,17 +1,45 @@
 {
-    "chart_title": "Sample Chart Data",
+    "chart_title": "Population of Major Japanese Cities 2025 (100k)",
     "data_points": [
-        {
-            "label": "Item A",
+        { 
+            "label": "Yokohama", 
+            "value": 38 
+        },
+        { 
+            "label": "Osaka", 
+            "value": 28
+        },
+        { 
+            "label": "Nagoya", 
+            "value": 23
+        },
+        { 
+            "label": "Fukuoka", 
+            "value": 16
+        },
+        { 
+            "label": "Sapporo", 
+            "value": 19
+        },
+        { 
+            "label": "Kobe", 
             "value": 15
         },
-        {
-            "label": "Item B",
-            "value": 30
+        { 
+            "label": "Kawasaki", 
+            "value": 15
+        },
+        { 
+            "label": "Kyoto", 
+            "value": 14
         },
         {
-            "label": "Item C",
-            "value": 22
+            "label": "Sendai", 
+            "value": 11
+        },
+        { 
+            "label": "Hiroshima", 
+            "value": 12
         }
     ]
 }

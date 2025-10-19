@@ -1,0 +1,31 @@
+New York to Philadelphia
+29.99
+BUS
+
+Chicago to Denver
+138.99
+PLANE
+
+Miami to Orlando
+39.99
+BUS
+
+Los Angeles to San Diego
+24.50
+TRAIN
+
+Dallas to Atlanta
+139.00
+PLANE
+
+Seattle to Portland
+35.00
+BUS
+
+Las Vegas to Los Angeles
+49.99
+TRAIN
+
+Boston to New York
+59.00
+PLANE
