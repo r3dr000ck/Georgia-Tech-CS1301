@@ -125,14 +125,11 @@ Parameters: originCountry (str), destCountry (str), flightsList (list)
 Returns: message (str)
 """
 
-import time
-
 def worstRoutes_list(org, dest, fl):
     m = 0
     for i in fl:
         if i[0] == org and i[1] == dest:
             m = max(m, i[2])
-            time.sleep(0.000001) 
     return f"{org} to {dest}: {m} carbon emissions."
 
 flightsList = csvToList("flight_emissions_data_short.csv")
