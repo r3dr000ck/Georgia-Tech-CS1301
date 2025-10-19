@@ -19,7 +19,7 @@ def travelBudget(budget):
     for i in range(0, len(l), 4):
         dep, des = l[i].strip().split(" to ")
         cost = float(l[i + 1])
-        typ = l[i + 2]
+        typ = l[i + 2].strip()
         if typ == "PLANE":
             cost += 30.0
         if rem >= cost:
@@ -51,7 +51,7 @@ def findAffordableHotels(m):
         rate = float(l[i + 3])
         if pn <= m and rate >= 5.0:
             hotels.append(name)
-            costs.append(round(pn * nights, 2))
+            costs.append(format(pn * nights, ".2f"))
             avg += rate
     if hotels == []:
         with open("bestHotels.txt", "w") as of:
@@ -63,7 +63,8 @@ def findAffordableHotels(m):
             for i in range(len(hotels)):
                 of.write(f"The cost to stay in {hotels[i]}'s hotel is ${costs[i]}.\n")
             of.write("\n")
-            of.write(f"The average rating of all affordable hotels is {round(avg / len(hotels), 2)}.")
+            r = format(avg / len(hotels)), ".2f"
+            of.write(f"The average rating of all affordable hotels is {r}.")
             of.close()
     f.close()
 
