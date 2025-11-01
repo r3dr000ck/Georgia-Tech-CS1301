@@ -106,14 +106,15 @@ def currencyCountries(cur):
     ret = {}
     if not cur_data == {"status":404,"message":"Not Found"}:
         for i in cur_data:
-            r = i["region"]
-            n = i["name"]["common"]
-            if r in ret:
-                ret[r].append(n)
-                ret[r] = sorted(ret[r])
-            else:
-                ret[r] = [n]
-    else:
+            if i["landlocked"]:
+                r = i["region"]
+                n = i["name"]["common"]
+                if r in ret:
+                    ret[r].append(n)
+                    ret[r] = sorted(ret[r])
+                else:
+                    ret[r] = [n]
+    if len(ret) == 0:
         print("No countries found!")
     return ret
 
