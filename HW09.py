@@ -12,7 +12,9 @@ Returns: city_upper (str)
 """
 
 def cityHopper(s):
-    if len(s) == 1:
+    if len(s) == 0:
+        return ""
+    elif len(s) == 1:
         if s.isupper():
             return s
         else:
@@ -80,8 +82,9 @@ def firstSemTAs(t, p):
         l = firstSemTAs(t[1:], p)
         if i[1] == p or i[1] == "Both":
             l.append(i[0])
+            l.sort()
         return sorted(l)
-
+    
 #########################################
 
 """
