@@ -81,10 +81,13 @@ def firstSemTAs(t, p):
         i = t[0]
         l = firstSemTAs(t[1:], p)
         if i[1] == p or i[1] == "Both":
-            l.append(i[0])
-            l.sort()
-        return sorted(l)
-    
+            return [i[0]] + l
+        return l
+
+a = firstSemTAs([("scanning exams", "V"), ("printing exams", "V"),
+("paper coding", "V")], "V")
+print(a)
+
 #########################################
 
 """
