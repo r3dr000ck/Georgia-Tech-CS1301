@@ -48,9 +48,9 @@ class Visitor:
         
         p = self.park
         if ri not in p.rides:
-            return f"{ri.name} is at a differentpark."
+            return f"{ri.name} is at a different park."
         
-        if len(ri.visitorsInLine) < ri.lineCapacity and ri.isOpen and self.height <= ri.minHeight:
+        if len(ri.visitorsInLine) < ri.lineCapacity and ri.isOpen and self.height >= ri.minHeight:
             p.visitors.remove(self)
             ri.visitorsInLine.append(self)
             return f"{self.name} got in line for {ri.name}."
