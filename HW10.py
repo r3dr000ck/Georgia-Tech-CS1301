@@ -18,7 +18,7 @@ class Visitor:
         if self.money < p.admissionFee:
             return f"{self.name} did not enter the park."
 
-        if not p.is_open:
+        if not p.isOpen:
             return f"{self.name} did not enter the park."
 
         self.park = p
