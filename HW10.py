@@ -106,10 +106,10 @@ class Ride:
         self.isOpen = False
         l = self.visitorsInLine
         for i in l:
-            if l.park is not None:
+            if i.park is not None:
                 p = l.park
                 p.visitors.append(l)
-            l.funLevels = max(l.funLevels - 30, 1)
+            i.funLevel = max(l.funLevel - 30, 1)
         
         self.visitorsInLine = []
         return f"{self.name} has closed."
