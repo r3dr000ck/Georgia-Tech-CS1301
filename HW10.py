@@ -193,15 +193,14 @@ class Park:
         if op:
             l = self.rides
             for i in l:
-                i.isOpen = True
+                i.open_ride()
             return f"{self.name} is now open!"
         else:
             l = self.rides
             for i in l:
-                i.isOpen = False
-            vl = self.visitors
-            for i in vl:
-                i.park = None
+                i.close_ride()
+            for v in self.visitors[:]:
+                v.leave_park() 
             self.visitors = []
             return f"{self.name} has closed for the day."
 
