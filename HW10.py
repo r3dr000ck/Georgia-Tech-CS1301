@@ -108,7 +108,7 @@ class Ride:
         for i in l:
             if i.park is not None:
                 p = i.park
-                p.visitors.append(l)
+                p.visitors.append(i)
             i.funLevel = max(i.funLevel - 30, 1)
         
         self.visitorsInLine = []
