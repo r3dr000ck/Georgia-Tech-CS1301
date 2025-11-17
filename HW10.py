@@ -40,7 +40,7 @@ class Visitor:
         
         p.reviews.append(rev)
         self.park = None
-        return f"{self.name} gave the park {self.rev} stars!"
+        return f"{self.name} gave the park {rev} stars!"
 
     def get_in_line(self, ri):
         if self.park is None:
