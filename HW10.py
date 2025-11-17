@@ -81,7 +81,7 @@ class Visitor:
         return (self.funLevel == visitor.funLevel and self.nauseaLevel == visitor.nauseaLevel)
     
     def __str__(self):
-        return f"{self.name} - fun: {self.funLevel}, height: {self.height}, nausea:{self.nauseaLevel}, money: {self.money}"
+        return f"{self.name} - fun: {self.funLevel}, height: {self.height}, nausea: {self.nauseaLevel}, money: {self.money}"
 
 #########################################
 
@@ -144,7 +144,7 @@ class Ride:
     
     def increase_line_capacity(self, n):
         self.lineCapacity += n
-        return f"{self.name} now has a line capacity of {n}."
+        return f"{self.name} now has a line capacity of {self.lineCapacity}."
     
     def __gt__(self, other):
         a = len(self.visitorsInLine) + self.totalRides
@@ -184,13 +184,9 @@ class Park:
         return f"The ride {ri.name} has been decommissioned!"
     
     def update_rating(self):
-        l = self.reviews 
-        s = 0
-        for i in l:
-            s += i
-        s = round(s / len(l), 1)
-        self.rating = s
-        return f"{self.name}'s new rating is {s}!"
+        if self.reviews:
+            self.rating = round(sum(self.reviews) / len(self.reviews), 1)
+        return f"{self.name}'s new rating is {self.rating}!"
     
     def update_park_status(self, op):
         self.isOpen = op
@@ -198,10 +194,8 @@ class Park:
             l = self.rides
             for i in l:
                 i.isOpen = True
-                return f"{self.name} is now open!"
+            return f"{self.name} is now open!"
         else:
-            self.isOpen = op
-        if op:
             l = self.rides
             for i in l:
                 i.isOpen = False
@@ -212,17 +206,15 @@ class Park:
             return f"{self.name} has closed for the day."
 
     def fireworks_show(self, le):
-        l = self.rides
-        for i in l:
-            i.isOpen = False
+        for i in self.rides:
+            i.close_ride()
         
-        vl = self.visitors
-        for i in vl:
+        for i in self.visitors:
             i.funLevel += (le * 5)
             i.nauseaLevel = max(0, i.nauseaLevel - 40)
         
-        for i in l:
-            i.isOpen = True
+        for i in self.rides:
+            i.open_ride()
         
         return f"Everyone enjoyed a {le}-minute fireworks show."
 
