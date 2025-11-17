@@ -15,7 +15,7 @@ class Visitor:
         self.park = None
     
     def enter_park(self, p):
-        if self.money < p.admission_fee:
+        if self.money < p.admissionFee:
             return f"{self.name} did not enter the park."
 
         if not p.is_open:
@@ -23,8 +23,8 @@ class Visitor:
 
         self.park = p
         p.visitors.append(self)
-        self.money -= p.admission_fee
-        p.revenue += p.admission_fee
+        self.money -= p.admissionFee
+        p.revenue += p.admissionFee
 
         return f"{self.name} has entered the park."
 
