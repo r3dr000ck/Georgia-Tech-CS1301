@@ -202,6 +202,8 @@ class Park:
             for v in self.visitors[:]:
                 v.leave_park() 
             self.visitors = []
+            if self.reviews:
+                self.rating = round(sum(self.reviews) / len(self.reviews), 1)
             return f"{self.name} has closed for the day."
 
     def fireworks_show(self, le):
