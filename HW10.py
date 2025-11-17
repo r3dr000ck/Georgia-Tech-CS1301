@@ -67,7 +67,7 @@ class Visitor:
         if f in p.food and self.money >= p.food[f]:
             self.money -= p.food[f]
             self.funLevel += 40
-            self.nauseaLevel -= 60
+            self.nauseaLevel += 60
             p.revenue += p.food[f]
             return f"{self.name} purchased {f} for lunch."
         else:
